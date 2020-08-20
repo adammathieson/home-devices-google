@@ -10,7 +10,7 @@ const Scene1 = () => {
     const next = useStore(state => state.nextScene)
 
     useEffect(() => {
-        const rLeg = gsap.fromTo("#leg-right" , .45, {rotate: 5}, {rotate: -5, ease:'none', repeat:-1, yoyo: true});
+        const rLeg = gsap.fromTo("#leg-right" , .45, {rotate: 5}, {rotate: -5, ease:'none', repeat:-1, yoyo: true})
         rLeg.progress(0.5).pause();
         rLeg.play();
         
