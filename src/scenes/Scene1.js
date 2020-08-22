@@ -72,7 +72,7 @@ const Scene1 = () => {
         fill="none"
         viewBox="0 0 839 596"
       >
-        <g id="scene-1-exterior" clip-path="url(#clip0)">
+        <g id="scene-1-exterior" clipPath="url(#clip0)">
           <path fill="url(#paint0_linear)" d="M0 0h839v596H0z"></path>
           <g id="scene-container">
             <g id="bg-houses">
